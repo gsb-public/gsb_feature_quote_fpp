@@ -53,7 +53,7 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
       'type' => 'text',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
