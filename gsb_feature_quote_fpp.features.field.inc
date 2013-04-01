@@ -38,7 +38,7 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'type' => 'text_long',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -117,7 +117,7 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'type' => 'link_field',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -206,7 +206,7 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'type' => 'text',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -283,7 +283,7 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'type' => 'link_field',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
