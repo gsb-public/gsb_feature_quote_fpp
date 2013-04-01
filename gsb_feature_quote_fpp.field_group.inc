@@ -21,11 +21,11 @@ function gsb_feature_quote_fpp_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Author',
-    'weight' => '3',
+    'weight' => '4',
     'children' => array(
-      0 => 'field_gsb_quote_name_title',
+      0 => 'field_gsb_quote_company_link',
       1 => 'field_gsb_quote_company_name',
-      2 => 'field_gsb_quote_company_link',
+      2 => 'field_gsb_quote_name_title',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
