@@ -13,7 +13,7 @@ function gsb_feature_quote_fpp_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_fieldable_panels_pane__gsb_quote_fpp';
+  $strongarm->name = 'field_bundle_settings_fieldable_panels_pane__quote';
   $strongarm->value = array(
     'view_modes' => array(
       'ical' => array(
@@ -42,7 +42,7 @@ function gsb_feature_quote_fpp_strongarm() {
       ),
     ),
   );
-  $export['field_bundle_settings_fieldable_panels_pane__gsb_quote_fpp'] = $strongarm;
+  $export['field_bundle_settings_fieldable_panels_pane__quote'] = $strongarm;
 
   return $export;
 }
