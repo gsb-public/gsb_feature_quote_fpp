@@ -10,8 +10,8 @@
 function gsb_feature_quote_fpp_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_body'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_body'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_body'.
+  $fields['fieldable_panels_pane-quote-field_body'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -86,8 +86,8 @@ function gsb_feature_quote_fpp_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_link_single'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_link_single'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_link_single'.
+  $fields['fieldable_panels_pane-quote-field_link_single'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -176,8 +176,8 @@ function gsb_feature_quote_fpp_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_quote_author_name_title'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_quote_author_name_title'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_quote_author_name_title'.
+  $fields['fieldable_panels_pane-quote-field_quote_author_name_title'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -252,8 +252,8 @@ function gsb_feature_quote_fpp_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_quote_link_company'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_quote_link_company'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_quote_link_company'.
+  $fields['fieldable_panels_pane-quote-field_quote_link_company'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
