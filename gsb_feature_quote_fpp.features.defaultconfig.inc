@@ -127,7 +127,7 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
       'type' => 'text',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -201,7 +201,7 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
       'type' => 'text',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -275,7 +275,7 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
       'type' => 'text',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -347,7 +347,7 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
       'type' => 'text_long',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_quote_fpp',
+      'bundle' => 'quote',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -414,7 +414,7 @@ function gsb_feature_quote_fpp_defaultconfig_field_group_info() {
   $field_group->identifier = 'group_gsb_quote_author|fieldable_panels_pane|gsb_quote_fpp|form';
   $field_group->group_name = 'group_gsb_quote_author';
   $field_group->entity_type = 'fieldable_panels_pane';
-  $field_group->bundle = 'gsb_quote_fpp';
+  $field_group->bundle = 'quote';
   $field_group->mode = 'form';
   $field_group->parent_name = '';
   $field_group->data = array(
