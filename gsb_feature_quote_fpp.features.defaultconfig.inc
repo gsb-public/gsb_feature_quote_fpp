@@ -23,8 +23,8 @@ function gsb_feature_quote_fpp_defaultconfig_features() {
 function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_company_link'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_company_link'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_gsb_quote_company_link'.
+  $fields['fieldable_panels_pane-quote-field_gsb_quote_company_link'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -97,8 +97,8 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_company_name'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_company_name'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_gsb_quote_company_name'.
+  $fields['fieldable_panels_pane-quote-field_gsb_quote_company_name'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -171,8 +171,8 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_link'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_link'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_gsb_quote_link'.
+  $fields['fieldable_panels_pane-quote-field_gsb_quote_link'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -245,8 +245,8 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_name_title'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_name_title'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_gsb_quote_name_title'.
+  $fields['fieldable_panels_pane-quote-field_gsb_quote_name_title'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -319,8 +319,8 @@ function gsb_feature_quote_fpp_defaultconfig_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_quote'.
-  $fields['fieldable_panels_pane-gsb_quote_fpp-field_gsb_quote_quote'] = array(
+  // Exported field: 'fieldable_panels_pane-quote-field_gsb_quote_quote'.
+  $fields['fieldable_panels_pane-quote-field_gsb_quote_quote'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -449,7 +449,7 @@ function gsb_feature_quote_fpp_defaultconfig_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_fieldable_panels_pane__gsb_quote_fpp';
+  $strongarm->name = 'field_bundle_settings_fieldable_panels_pane__quote';
   $strongarm->value = array(
     'view_modes' => array(
       'ical' => array(
@@ -478,7 +478,7 @@ function gsb_feature_quote_fpp_defaultconfig_strongarm() {
       ),
     ),
   );
-  $export['field_bundle_settings_fieldable_panels_pane__gsb_quote_fpp'] = $strongarm;
+  $export['field_bundle_settings_fieldable_panels_pane__quote'] = $strongarm;
 
   return $export;
 }
