@@ -13,7 +13,7 @@ function gsb_feature_quote_fpp_field_group_info() {
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
-  $field_group->identifier = 'group_gsb_quote_author|fieldable_panels_pane|gsb_quote_fpp|form';
+  $field_group->identifier = 'group_gsb_quote_author|fieldable_panels_pane|quote|form';
   $field_group->group_name = 'group_gsb_quote_author';
   $field_group->entity_type = 'fieldable_panels_pane';
   $field_group->bundle = 'quote';
@@ -36,7 +36,7 @@ function gsb_feature_quote_fpp_field_group_info() {
       ),
     ),
   );
-  $export['group_gsb_quote_author|fieldable_panels_pane|gsb_quote_fpp|form'] = $field_group;
+  $export['group_gsb_quote_author|fieldable_panels_pane|quote|form'] = $field_group;
 
   return $export;
 }

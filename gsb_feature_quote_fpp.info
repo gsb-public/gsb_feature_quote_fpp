@@ -22,6 +22,6 @@ features[field][] = fieldable_panels_pane-quote-field_link_single
 features[field][] = fieldable_panels_pane-quote-field_quote_author_name_title
 features[field][] = fieldable_panels_pane-quote-field_quote_link_company
 features[field][] = node-gsb_video-field_file_single_public
-features[field_group][] = group_gsb_quote_author|fieldable_panels_pane|gsb_quote_fpp|form
+features[field_group][] = group_gsb_quote_author|fieldable_panels_pane|quote|form
 features[variable][] = field_bundle_settings_fieldable_panels_pane__quote
 features_exclude[dependencies][defaultconfig] = defaultconfig
