@@ -35,7 +35,7 @@ function gsb_feature_quote_fpp_strongarm() {
       'display' => array(
         'title' => array(
           'default' => array(
-            'weight' => '-5',
+            'weight' => '5',
             'visible' => FALSE,
           ),
         ),

@@ -44,11 +44,13 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
-          'settings' => array(),
+          'settings' => array(
+            'conditions' => array(),
+          ),
           'type' => 'text_default',
-          'weight' => 6,
+          'weight' => '0',
         ),
         'ical' => array(
           'label' => 'above',
@@ -123,11 +125,13 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'link',
-          'settings' => array(),
+          'settings' => array(
+            'conditions' => array(),
+          ),
           'type' => 'link_default',
-          'weight' => 7,
+          'weight' => '1',
         ),
         'ical' => array(
           'label' => 'above',
@@ -212,11 +216,13 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
-          'settings' => array(),
+          'settings' => array(
+            'conditions' => array(),
+          ),
           'type' => 'text_default',
-          'weight' => 8,
+          'weight' => '2',
         ),
         'ical' => array(
           'label' => 'above',
@@ -289,11 +295,13 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'link',
-          'settings' => array(),
+          'settings' => array(
+            'conditions' => array(),
+          ),
           'type' => 'link_default',
-          'weight' => 9,
+          'weight' => '3',
         ),
         'ical' => array(
           'label' => 'above',

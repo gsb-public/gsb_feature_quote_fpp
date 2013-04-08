@@ -13,11 +13,11 @@ function gsb_feature_quote_fpp_field_group_info() {
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
-  $field_group->identifier = 'group_gsb_quote_author|fieldable_panels_pane|quote|form';
-  $field_group->group_name = 'group_gsb_quote_author';
+  $field_group->identifier = 'group_author|fieldable_panels_pane|quote|default';
+  $field_group->group_name = 'group_author';
   $field_group->entity_type = 'fieldable_panels_pane';
   $field_group->bundle = 'quote';
-  $field_group->mode = 'form';
+  $field_group->mode = 'default';
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Author',
@@ -26,17 +26,21 @@ function gsb_feature_quote_fpp_field_group_info() {
       0 => 'field_quote_author_name_title',
       1 => 'field_quote_link_company',
     ),
-    'format_type' => 'fieldset',
+    'format_type' => 'div',
     'format_settings' => array(
-      'formatter' => 'collapsible',
+      'label' => 'Author',
       'instance_settings' => array(
-        'description' => '',
         'classes' => '',
-        'required_fields' => 1,
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'none',
       ),
+      'formatter' => 'open',
     ),
   );
-  $export['group_gsb_quote_author|fieldable_panels_pane|quote|form'] = $field_group;
+  $export['group_author|fieldable_panels_pane|quote|default'] = $field_group;
 
   return $export;
 }
