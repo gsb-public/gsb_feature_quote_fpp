@@ -216,13 +216,13 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'hidden',
+          'label' => 'inline',
           'module' => 'text',
           'settings' => array(
             'conditions' => array(),
           ),
           'type' => 'text_default',
-          'weight' => '2',
+          'weight' => '3',
         ),
         'ical' => array(
           'label' => 'above',
@@ -295,13 +295,13 @@ function gsb_feature_quote_fpp_field_default_fields() {
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'hidden',
+          'label' => 'inline',
           'module' => 'link',
           'settings' => array(
             'conditions' => array(),
           ),
           'type' => 'link_default',
-          'weight' => '3',
+          'weight' => '4',
         ),
         'ical' => array(
           'label' => 'above',

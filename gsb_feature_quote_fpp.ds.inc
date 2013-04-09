@@ -35,13 +35,30 @@ function gsb_feature_quote_fpp_ds_field_settings_info() {
       'formatter_settings' => array(
         'ft' => array(
           'func' => 'theme_ds_field_minimal',
+          'lb' => '— ',
+          'lb-col' => TRUE,
         ),
       ),
     ),
     'field_quote_link_company' => array(
       'formatter_settings' => array(
         'ft' => array(
-          'func' => 'theme_ds_field_minimal',
+          'func' => 'theme_ds_field_expert',
+          'lb' => 'of',
+          'lb-el' => 'span',
+          'lb-col' => TRUE,
+          'ow' => TRUE,
+          'ow-el' => 'span',
+          'ow-cl' => '',
+          'ow-def-cl' => TRUE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+          'fi' => TRUE,
+          'fi-el' => 'span',
+          'fi-cl' => '',
+          'fi-at' => '',
+          'fi-def-at' => TRUE,
+          'fi-odd-even' => FALSE,
         ),
       ),
     ),
@@ -69,17 +86,17 @@ function gsb_feature_quote_fpp_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'field_body',
         1 => 'field_link_single',
-        2 => 'field_quote_author_name_title',
-        3 => 'field_quote_link_company',
-        4 => 'group_author',
+        2 => 'group_wrapper_author',
+        3 => 'field_quote_author_name_title',
+        4 => 'field_quote_link_company',
       ),
     ),
     'fields' => array(
       'field_body' => 'ds_content',
       'field_link_single' => 'ds_content',
+      'group_wrapper_author' => 'ds_content',
       'field_quote_author_name_title' => 'ds_content',
       'field_quote_link_company' => 'ds_content',
-      'group_author' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
