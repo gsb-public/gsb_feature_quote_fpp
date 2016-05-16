@@ -4,8 +4,6 @@
  * Code for the GSB Feature Quote FPP feature.
  */
 
-include_once 'gsb_feature_quote_fpp.features.inc';
-
 
 /**
  * Implements hook_entity_info_alter().
